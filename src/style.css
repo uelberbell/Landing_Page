@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 15px 100px;
+    padding: 15px;
+    
+}
+
+body{
+    background-color: #000501;
+    color: #EFF9FA;
+    font-family: sans-serif;
+}
+
+li{
+    display: inline;
+    padding: 0px 15px;
+}
+
+a{
+    color: #EFF9FA;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    padding: 0px 0px 15px 0px;
+    font-size: 30px;
+    margin: 6px;
+}
+
+p{
+    max-width: 400px;
+    font-size: 15px;
+    padding: 0px 10px 15px 0px;
+    margin: 6px;
+}
+
+span{
+    color:#A14EBF;
+}
+
+.entrada_dados{
+    margin: 160px 30px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input{
+    height: 50px;
+    margin: 6px;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    
+}
+
+input.enviar_dados{
+    cursor: pointer;
+    background-color:#A14EBF;
+    transition: 0.4s all;
+    color: #000501;
+      
+}
+
+input.enviar_dados:hover{
+    color: #EFF9FA;  
+    background-color:#591361;
+}
+
+.fliperama{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    padding: 30px;
+    margin: 30px;
+}
