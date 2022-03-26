@@ -1,84 +1,111 @@
+body{
+    background-color: #000501;
+    color: #EFF9FA;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: sans-serif;
-    margin: 15px 100px;
-    padding: 15px;
-    
 }
 
-body{
-    background-color: #000501;
-    color: #EFF9FA;
-    font-family: sans-serif;
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
 }
 
-li{
-    display: inline;
-    padding: 0px 15px;
+.title{
+    flex-direction: column;
+    line-height: 40px;
 }
 
 a{
     color: #EFF9FA;
+    font-weight: bold;
+    transition: 0.3s all;
 }
 
-h1{
-    font-size: 60px;
+/* Vamos fazer a animação dos menus aqui */
+a:hover{
+    color: #654597;
 }
 
-h3{
-    padding: 0px 0px 15px 0px;
+/* Alinhando menu */
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Afinando fonte 2 do titulo */
+#fina{
+    font-weight: 200;
     font-size: 30px;
-    margin: 6px;
 }
 
-p{
-    max-width: 400px;
-    font-size: 15px;
-    padding: 0px 10px 15px 0px;
-    margin: 6px;
-}
-
-span{
-    color:#A14EBF;
-}
-
-.entrada_dados{
-    margin: 160px 30px 0px 100px;
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-}
-
-input{
-    height: 50px;
-    margin: 6px;
-    border: none;
-    border-radius: 20px;
-    padding: 7px;
+h2{
+    font-size: 56px;
+    /* Distanciamento da linha da altura da fonte*/
+    line-height: 50px;
     
 }
 
-input.enviar_dados{
-    cursor: pointer;
-    background-color:#A14EBF;
-    transition: 0.4s all;
-    color: #000501;
-      
+/* Mudando parte da cor do h2 */
+span{
+    color: #654597;
 }
 
-input.enviar_dados:hover{
-    color: #EFF9FA;  
-    background-color:#591361;
+p{
+    line-height: 20px;
+    max-width: 500px;
+    margin-top: 40px;
 }
 
-.fliperama{
+/* Ajustando imagem */
+img{
+    width: 580px;
+    transition: 1.8s all;
+}
+
+/* Animação da imagem */
+img:hover{
+    padding: 20px;
+}
+
+
+.formulario{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 600px;
-    padding: 30px;
-    margin: 30px;
+    flex-direction: column;
+    width: 70%;   /*70% Da largura do formuilário*/
+}
+
+input{
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #393a41;
+}
+
+.enviar_dados{
+    height: 50px;
+    width: 50%;
+    background-color: #654597;
+    color: #000501;
+    font-weight: bold;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+/* Animação botão Enviar */
+.enviar_dados:hover{
+    color:#EFF9FA;
+    background-color: #382754;
 }

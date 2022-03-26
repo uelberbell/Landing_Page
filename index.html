@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Protótipo Página bellguitar</title>
+    <title>belguitar News</title>
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="/src/global.css" />
   </head>
   <body>
+
     <!--O topo do nosso site se inicia aqui!-->
     <header>
+      <div class="title">
       <h1>bellguitar</h1>
+      <h1 id="fina">Gamer | Streamer</h1>
+    </div>
       <nav>
         <ul>
           <a href="#"><li>Home</li></a>
@@ -22,21 +26,27 @@
       </nav>
     </header>
 
+    <!--Conteúdo principal di site-->
     <main>
-      <!--Aqui temos do cadastro de nome e e-mail do visitante-->
-      <div class="entrada_dados">
-        <h3>Cadastre-se para receber <span>as informações em primeira mão!</h3>
+      <aside>
+        <h2>Cadastre-se para receber <span>as informações em primeira mão!</h2>
         </span>
         <p>Aqui você poderá se inscrever para recerber todas notícias em primeira mão.
           Recenbendo links, agenda e informações de forma antecipada
-        </p>
-        <input class="email" type="email" placeholder="E-mail" />
-        <input class="nome" type="name" placeholder="Nome" />
-        <input class="enviar_dados" type="button" value="Enviar" />
-      </div>
-      <aside>
-        <img class="fliperama" src="/src/images/fliperama.svg" />
+        </p> <!--Aqui temos o cadastro de nome e e-mail do visitante-->
+        <form class="formulario">
+          <input class="email" type="email" placeholder="E-mail" />
+          <input class="nome" type="name" placeholder="Nome" />
+          <input class="enviar_dados" type="submit" value="Enviar" />
+        </form> 
       </aside>
+            <!--Inserindo a imagem que do meio da página-->
+      <article class="fliperama">
+        <img  src="/src/images/fliperama.svg" alt="fliperama" />
+      </article>
     </main>
+
+    <!--Inserindo linl para o código JS-->
+    <script src="script.js"></script>
   </body>
 </html>
