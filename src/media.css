@@ -1,0 +1,60 @@
+@media (max-width: 788px){
+
+    header{
+        flex-direction: column;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    a{
+        color: #BB1953;
+        font-weight: bold;
+        transition: 0.3s all;
+    }
+
+    #contato{
+       border: 2px solid #BB1953;
+       border-radius: 15px;
+       padding: 8px;
+    }
+
+    #contato:hover{
+        background-color:#BB1953;
+        color: #EFF9FA;
+    }
+    
+    /* Vamos fazer a animação dos menus aqui */
+    a:hover{
+        color: #EFF9FA;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    form{
+        margin: auto;
+        width: 100%;
+    }
+
+    .enviar_dados{
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+        width: 100%;
+    } 
+
+    img{
+        display: none;
+    }
+
+}

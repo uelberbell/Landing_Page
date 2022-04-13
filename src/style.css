@@ -22,7 +22,7 @@ main{
 
 .title{
     flex-direction: column;
-    line-height: 40px;
+    font-size: 25px;
 }
 
 a{
@@ -33,7 +33,7 @@ a{
 
 /* Vamos fazer a animação dos menus aqui */
 a:hover{
-    color: #654597;
+    color: #BB1953;
 }
 
 /* Alinhando menu */
@@ -57,7 +57,7 @@ h2{
 
 /* Mudando parte da cor do h2 */
 span{
-    color: #654597;
+    color: #BB1953
 }
 
 p{
@@ -88,7 +88,7 @@ input{
     margin-top: 20px;
     height: 50px;
     padding: 15px;
-    border: none;
+    border: none; 
     border-radius: 15px;
     font-size: 15px;
     background-color: #393a41;
@@ -97,7 +97,7 @@ input{
 .enviar_dados{
     height: 50px;
     width: 50%;
-    background-color: #654597;
+    background-color: #BB1953;
     color: #000501;
     font-weight: bold;
     transition: 0.3s all;
@@ -107,5 +107,5 @@ input{
 /* Animação botão Enviar */
 .enviar_dados:hover{
     color:#EFF9FA;
-    background-color: #382754;
+    background-color: #C23064;
 }
