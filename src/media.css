@@ -13,8 +13,8 @@
         font-weight: bold;
         transition: 0.3s all;
     }
-
-    #contato{
+    /*Criei uma ID na UL contato para poder manipular um unico menu, como um botão.  */
+    #contato{ 
        border: 2px solid #BB1953;
        border-radius: 15px;
        padding: 8px;
@@ -53,7 +53,7 @@
         width: 100%;
     } 
 
-    img{
+    #gamer{
         display: none;
     }
 
