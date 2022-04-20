@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000501;
+    color: #EFF9FA;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+span{
+     font-size: 20px;
+     color:#BB1953;
+     font-weight: bold;
+     display: inline-block;
+     border: 2px solid #BB1953;
+     border-radius: 25px;
+     padding: 10px;
+     box-shadow: rgba(187, 25, 83, 0.723) 0px 3px 8px;
+     transition: 0.3s all;
+}
+
+span:hover{
+    color:#393a41;
+    background-color:#BB1953;
+    color: #EFF9FA;
+    box-shadow: rgba(223, 11, 85, 0.25) 0px 14px 28px, rgba(230, 45, 131, 0.22) 0px 10px 10px;
+}
