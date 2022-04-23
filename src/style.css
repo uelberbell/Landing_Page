@@ -10,8 +10,16 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;       
     align-items: center;
+}
+
+/* Esse conteúdo será removido assim que informações forem incluídas.
+Página "Minhas Redes" */
+.aviso{
+    
+    text-align: center;
+    margin: auto;
 }
 
 .bellguitar{

@@ -23,9 +23,9 @@
       <nav>
         <ul>
           <a href="index.html"><li>Home</li></a>
-          <a href="#"><li>Minhas redes</li></a>
-          <a href="#"><li>Minha história</li></a>
-          <a href="#" id="contato"><li>Contato</li></a>
+          <a href="minhasredes.html"><li>Minhas redes</li></a>
+          <a href="minhashistoria.html"><li>Minha história</li></a>
+          <a href="contato.html" id="contato"><li>Contato</li></a>
         </ul>
       </nav>
     </header>
@@ -50,8 +50,26 @@
             name="_next"
             value="http://127.0.0.1:5500/sucesso.html"
           />
-          <input class="email" type="email" name="email" placeholder="E-mail" />
-          <input class="nome" type="text" name="nome" placeholder="Nome" />
+
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Bem vindo ao bellguitarNews! Em breve você receberá mais informações."
+          />
+          <input
+            class="email"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <input
+            class="nome"
+            type="text"
+            name="nome"
+            placeholder="Nome"
+            required
+          />
           <input class="enviar_dados" type="submit" value="Enviar" />
         </form>
       </aside>

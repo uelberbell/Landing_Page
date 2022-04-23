@@ -4,6 +4,15 @@
         flex-direction: column;
     }
 
+    main{
+        margin-top: 60px;
+    }
+
+
+    nav{
+        margin-top: 20px;
+    }
+
     ul{
         text-align: center;
     }
